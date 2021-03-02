@@ -1,7 +1,8 @@
 import styled from "styled-components";
-import { FaTimes } from "react-icons/fa";
+
 import { Link as LinkS } from "react-scroll";
 import { Link as LinkR } from "react-router-dom";
+import CloseIcon from "@material-ui/icons/Close";
 
 export const SidebarContainer = styled.aside`
   position: fixed;
@@ -19,7 +20,7 @@ export const SidebarContainer = styled.aside`
   color: white;
 `;
 
-export const CloseIcon = styled(FaTimes)`
+export const CloseIcon1 = styled(CloseIcon)`
   color: white;
 `;
 

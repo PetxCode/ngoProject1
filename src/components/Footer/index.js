@@ -1,21 +1,10 @@
 import React from "react";
-// import {
-//   FaFacebook,
-//   ,
-//   FaTwitter,
-//   FaLinkedin,
-//   FaInstagram,
-// } from "react-icons/fa";
 
-import {
-  FaFacebook,
-  FaYoutube,
-  FaTwitter,
-  FaAdobe,
-  FaLinkedin,
-  FaInstagram,
-  FaMagento,
-} from "react-icons/fa";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import TwitterIcon from "@material-ui/icons/Twitter";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import InstagramIcon from "@material-ui/icons/Instagram";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 import {
   FooterContainer,
@@ -100,7 +89,7 @@ const Footer = () => {
                 target="_blank"
                 aria-label="Facebook"
               >
-                <FaFacebook />
+                <FacebookIcon />
               </SocialIconLink>
 
               <SocialIconLink
@@ -108,19 +97,19 @@ const Footer = () => {
                 target="_blank"
                 aria-label="Youtube"
               >
-                <FaYoutube />
+                <YouTubeIcon />
               </SocialIconLink>
 
               <SocialIconLink href="/" target="_blank" aria-label="Twitter">
-                <FaTwitter />
+                <TwitterIcon />
               </SocialIconLink>
 
               <SocialIconLink href="/" target="_blank" aria-label="Linkedin">
-                <FaLinkedin />
+                <LinkedInIcon />
               </SocialIconLink>
 
               <SocialIconLink href="/" target="_blank" aria-label="Instagram">
-                <FaInstagram />
+                <InstagramIcon />
               </SocialIconLink>
             </SocialIcon>
           </SocialMediaWrap>

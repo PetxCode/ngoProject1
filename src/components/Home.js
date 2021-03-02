@@ -16,6 +16,7 @@ function Home() {
     <div>
       <NavBar toggle={toggle} />
       <SideBar isOpen={isOpen} toggle={toggle} />
+      This is it
       <HeroSection />
       <ModalButton />
       <Footer />
@@ -24,3 +25,5 @@ function Home() {
 }
 
 export default Home;
+
+// <HeroSection />
