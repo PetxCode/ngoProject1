@@ -1,6 +1,8 @@
 import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+// import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 import { Link } from "react-router-dom";
+import ArrowBackIcon from "@material-ui/icons/ArrowBack";
+import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -69,12 +71,12 @@ export const HeroBtnWrapper = styled.div`
   align-items: center;
 `;
 
-export const ArrowForward = styled(MdArrowForward)`
+export const ArrowForward = styled(ArrowBackIcon)`
   margin-left: 8px;
   font-size: 20px;
 `;
 
-export const ArrowRight = styled(MdKeyboardArrowRight)`
+export const ArrowRight = styled(ArrowForwardIcon)`
   margin-left: 8px;
   font-size: 20px;
 `;

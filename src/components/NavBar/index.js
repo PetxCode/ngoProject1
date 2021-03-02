@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { FaBars, FaMagento } from "react-icons/fa";
+// import { FaBars, FaMagento } from "react-icons/fa";
+import AcUnitIcon from "@material-ui/icons/AcUnit";
+import MenuIcon from "@material-ui/icons/Menu";
 import {
   Nav,
   NavbarContainer,
@@ -37,11 +39,11 @@ const NavBar = ({ toggle }) => {
       <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/" onClick={toggleHome}>
-            <FaMagento style={{ marginRight: "10px" }} />
+            <AcUnitIcon style={{ marginRight: "10px" }} />
             BDCL
           </NavLogo>
           <MobileIcons onClick={toggle}>
-            <FaBars />
+            <MenuIcon />
           </MobileIcons>
           <NavMenu>
             <NavItem>

@@ -3,7 +3,7 @@ import React from "react";
 import {
   SidebarContainer,
   Icon,
-  CloseIcon,
+  CloseIcon1,
   SideBtnWrap,
   SidebarRoute,
   SidebarLink,
@@ -16,7 +16,7 @@ const SideBar = ({ isOpen, toggle }) => {
     <>
       <SidebarContainer isOpen={isOpen} onClick={toggle}>
         <Icon onClick={toggle}>
-          <CloseIcon />
+          <CloseIcon1 />
         </Icon>
         <SidebarWrapper>
           <SidebarMenu>
