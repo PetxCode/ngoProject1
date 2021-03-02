@@ -6,7 +6,8 @@ const HomeScreen = () => {
   return (
     <div>
       <center>
-        <HeroSection />
+        <div>Home</div>
+        <div>Home</div>
         <div>Home</div>
         <Footer />
       </center>
