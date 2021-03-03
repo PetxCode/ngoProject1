@@ -73,9 +73,7 @@ const Footer = () => {
 
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialMediaLogo onClick={toggleHome}>
-              AJEGUNLE DEV DATA CENTER
-            </SocialMediaLogo>
+            <SocialMediaLogo onClick={toggleHome}>CodeLab</SocialMediaLogo>
             <WebsiteRight
               href="www.brighterdayscodelab.com.ng"
               target="new page"
