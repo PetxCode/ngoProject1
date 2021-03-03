@@ -16,7 +16,7 @@ const SuccessStory = () => {
           width: "300px",
           height: "150px",
           textAlign: "left",
-          marginRight: "10px",
+          margin: "10px",
           border: "1px solid lightblue",
           padding: "20px 10px",
         }}
@@ -45,7 +45,7 @@ const SuccessStory = () => {
       <div
         style={{
           width: "300px",
-          marginLeft: "10px",
+          margin: "10px",
           height: "150px",
           textAlign: "left",
           border: "1px solid lightblue",

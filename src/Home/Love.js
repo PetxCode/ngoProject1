@@ -1,12 +1,13 @@
 import React from "react";
 import love from "../videos/love.svg";
 
-const Love = ({ bg, text, img, bg1 }) => {
+const Love = ({ bg, text, img, bg1, clr, details }) => {
   return (
     <div
       style={{
         backgroundColor: bg1,
         width: "100%",
+        // backgroundColor: "red",
         margin: "0px 0",
       }}
     >
@@ -22,7 +23,8 @@ const Love = ({ bg, text, img, bg1 }) => {
             justifyContent: "center",
             alignItems: "center",
             marginTop: "50px",
-            marginBottom: "30px",
+            // backgroundColor: "red",
+            marginBottom: "0px",
           }}
         >
           <img
@@ -40,12 +42,27 @@ const Love = ({ bg, text, img, bg1 }) => {
           style={{
             fontSize: "35px",
             // marginBottom: "50px",
-            padding: "10px 0",
+            padding: "0px 20px",
+            margin: "20px 0",
+            color: clr,
+            lineHeight: "1.0",
           }}
         >
           {" "}
           {text}{" "}
         </div>
+        <p
+          style={{
+            // marginBottom: "50px",
+            paddingBottom: "30px",
+            paddingLeft: "10px",
+            paddingRight: "10px",
+            color: clr,
+          }}
+        >
+          {" "}
+          {details}{" "}
+        </p>
       </center>
     </div>
   );

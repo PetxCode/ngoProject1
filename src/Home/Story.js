@@ -11,6 +11,8 @@ const Story = () => {
         justifyContent: "center",
         backgroundColor: "#F4F6FC",
         paddingTop: "30px",
+        // backgroundColor: "red",
+        marginTop: "-15px",
       }}
     >
       <div
