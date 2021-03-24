@@ -27,6 +27,7 @@ const HeaderView = () => {
         </div>
         <div>
           <Link
+            to="/view"
             style={{
               color: "white",
             }}
