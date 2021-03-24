@@ -1,6 +1,6 @@
 import React from "react";
-import alfred from "../videos/alfred.png";
-import fatima from "../videos/fatma.png";
+import alfred from "../videos/John.png";
+import fatima from "../videos/sam.png";
 
 const Story = () => {
   return (
@@ -29,7 +29,7 @@ const Story = () => {
             alt="fatima"
             style={{
               width: "300px",
-              height: "350px",
+              height: "330px",
               objectFit: "contain",
             }}
           />
@@ -46,7 +46,7 @@ const Story = () => {
             textAlign: "left",
           }}
         >
-          <h3>SOFTWARE DEVELOPER</h3>
+          <h3 style={{ color: "#FAB43F" }}>SOFTWARE DEVELOPER</h3>
           <div>Fatma</div>
           <p>5 years of experience Kenya</p>
         </div>
@@ -65,8 +65,8 @@ const Story = () => {
             src={alfred}
             alt="fatima"
             style={{
-              width: "280px",
-              height: "350px",
+              width: "300px",
+              height: "330px",
               objectFit: "contain",
             }}
           />
@@ -83,7 +83,7 @@ const Story = () => {
             textAlign: "left",
           }}
         >
-          <h3>FRONT-END ENGINEER</h3>
+          <h3 style={{ color: "#FAB43F" }}>FRONT-END ENGINEER</h3>
           <div>Alfred</div>
           <p>4 years of experience Kenya</p>
         </div>
