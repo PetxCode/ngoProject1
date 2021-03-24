@@ -8,7 +8,7 @@ import Partner from "../Home/Partner";
 import Footer from "./Footer";
 import HeroSection from "./HeroSection";
 import love from "../videos/love.svg";
-import ttt from "../videos/ttt.png";
+import code from "../videos/codeW.png";
 import cup from "../videos/cup.svg";
 import Story from "../Home/Story";
 import SuccessStory from "../Home/SuccessStory";
@@ -28,7 +28,7 @@ const HomeScreen = () => {
 
         <MapHolder />
 
-        <Love text="Talent Spotlight" bg="#3863DF" img={ttt} bg1="#F4F6FC" />
+        <Love text="Talent Spotlight" bg="#3863DF" img={code} bg1="#F4F6FC" />
         <Story />
 
         <Love
